@@ -38,6 +38,7 @@ JEMALLOC_EXPORT size_t JEMALLOC_NOTHROW	@je_@sallocx(const void *ptr,
 JEMALLOC_EXPORT void JEMALLOC_NOTHROW	@je_@dallocx(void *ptr, int flags);
 JEMALLOC_EXPORT void JEMALLOC_NOTHROW	@je_@sdallocx(void *ptr, size_t size,
     int flags);
+JEMALLOC_EXPORT void JEMALLOC_NOTHROW	@je_@sdallocx_noflags(void *ptr, size_t size);
 JEMALLOC_EXPORT size_t JEMALLOC_NOTHROW	@je_@nallocx(size_t size, int flags)
     JEMALLOC_ATTR(pure);
 
